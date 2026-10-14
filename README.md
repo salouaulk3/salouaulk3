@@ -1,77 +1,108 @@
-﻿<div align="center">
+<div align="center">
 
- Hi there, I'm Saloua!
- Full-Stack & Mobile Developer | Crafting Modern Digital Products
+  <!-- Dynamic Typing Header Banner -->
+  <a href="https://github.com/salouaulk3">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=70&lines=Bonjour%2C+je+suis+Saloua+%F0%9F%91%8B;Full-Stack+%26+Mobile+Developer+%F0%9F%9A%80;Cr%C3%A9atrice+de+HANOT%2B+(Hanout-Plus)+%F0%9F%9B%92;React+Native+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Python" alt="Typing SVG" />
+  </a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-salouaulk3-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/salouaulk3)
-[![Projects](https://img.shields.io/badge/Projects-HANOT+-054687?style=for-the-badge&logo=expo&logoColor=white)](https://github.com/salouaulk3/Hanout-Plus)
-[![Status](https://img.shields.io/badge/Available_for-Opportunities-success?style=for-the-badge)](mailto:samiaaboudrar@gmail.com)
+  <p align="center">
+    <b>Crafting High-Performance Mobile & Web Solutions with Clean UI/UX</b>
+  </p>
 
----
+  <!-- Quick Action Badges -->
+  <p align="center">
+    <a href="https://github.com/salouaulk3">
+      <img src="https://img.shields.io/badge/GitHub-salouaulk3-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://github.com/salouaulk3/Hanout-Plus">
+      <img src="https://img.shields.io/badge/Featured-HANOT%2B-0284C7?style=for-the-badge&logo=expo&logoColor=white" alt="HANOT+" />
+    </a>
+    <a href="mailto:salouaulk3@gmail.com">
+      <img src="https://img.shields.io/badge/Contact-salouaulk3%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <img src="https://img.shields.io/badge/Statut-Disponible-10B981?style=for-the-badge" alt="Status" />
+  </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=salouaulk3&label=Profile%20Views&color=054687&style=flat-square" alt="Profile Views" />
-</p>
+  <!-- Profile Views Counter -->
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=salouaulk3&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
+  </p>
 
 </div>
 
-##  About Me
+---
 
--  Passionate **Full-Stack & Mobile Developer** building high-performance cross-platform applications.
--  Creator & Maintainer of [**HANOT+ (Hanout-Plus)**](https://github.com/salouaulk3/Hanout-Plus) â€” a digital management & credit tracking suite for store merchants.
--  Focused on clean UI/UX, scalable architecture, and reliable API services.
--  Constantly refining skills across the modern **React Native**, **TypeScript**, and **Node.js** ecosystems.
+### 💫 À propos de moi / About Me
+
+- 🚀 **Développeuse Full-Stack & Mobile**, passionnée par la création de produits numériques complets, performants et intuitifs.
+- 🛍️ **Créatrice & Mainteneur de [HANOT+ (Hanout-Plus)](https://github.com/salouaulk3/Hanout-Plus)** — Une suite moderne de gestion commerciale et suivi des créances (carnet de crédit numérique) pour commerçants et épiceries.
+- 📦 **Auteur de [Gestion de Stock](https://github.com/salouaulk3/gestion-de-stock)** — Outil optimisé pour le suivi des inventaires, mouvements et approvisionnements.
+- 🎯 **Focus d'expertise** : Architectures réactives, interfaces utilisateur soignées (UI/UX), APIs REST sécurisées et scalables.
+- ⚡ **Stack de prédilection** : React Native, Expo, TypeScript, Node.js, Express, Python et MySQL.
 
 ---
 
-##  Tech Stack & Skills
+### 🛠️ Technologies & Outils
 
 <div align="center">
 
-###  Frontend & Mobile
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  <!-- Interactive Skill Icons Grid -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,mysql,html,css,git,github,vscode,postman,figma&theme=dark" alt="Skills" />
+  </a>
 
-###  Backend & Databases
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+</div>
 
-###  Tools & Version Control
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Metro](https://img.shields.io/badge/Metro_Bundler-333333?style=for-the-badge)
+<br />
+
+<div align="center">
+
+| Domaine | Technologies |
+| :--- | :--- |
+| **Mobile & Frontend** | `React Native` • `Expo` • `React.js` • `TypeScript` • `JavaScript (ES6+)` • `HTML5 / CSS3` |
+| **Backend & APIs** | `Node.js` • `Express.js` • `Python` • `REST APIs` • `JWT & Auth` |
+| **Bases de Données** | `MySQL` • `SQL Relational Architecture` |
+| **Outils & Workflow** | `Git` • `GitHub` • `VS Code` • `Metro Bundler` • `Postman` |
 
 </div>
 
 ---
 
-##  Featured Project Spotlight
+### 🌟 Projets Phares / Featured Projects
 
 <table>
   <tr>
     <td width="60%">
-      <h3> <a href="https://github.com/salouaulk3/Hanout-Plus">HANOT+ (Hanout-Plus)</a></h3>
-      <p><b>Solution Numérique Compléte pour Commersants et Ã‰piceries</b></p>
+      <h3>🛒 <a href="https://github.com/salouaulk3/Hanout-Plus">HANOT+ (Hanout-Plus)</a></h3>
+      <p><b>Solution Numérique Complète pour Commerçants et Épiceries</b></p>
       <ul>
-        <li> <b>Gestion des crédits et dettes</b> : Enregistrement simplifiÃ© des dettes clients (karnet numérique).</li>
-        <li> <b>Suivi des rÃ¨glements</b> : Historique des paiements en temps rÃ©el et soldes actualisÃ©s.</li>
-        <li> <b>Tableau de bord financier</b> : SynthÃ¨se des encaissements, crÃ©ances et indicateurs clÃ©s.</li>
-        <li> <b>Multiplateforme</b> : ExpÃ©rience fluide optimisÃ©e pour Mobile et Web (Expo Router).</li>
+        <li><b>Gestion des crédits et dettes</b> : Enregistrement simplifié des dettes clients (karnet numérique sécurisé).</li>
+        <li><b>Suivi des règlements</b> : Historique des paiements en temps réel et soldes actualisés.</li>
+        <li><b>Tableau de bord financier</b> : Synthèse claire des encaissements, créances et indicateurs clés.</li>
+        <li><b>Expérience Multiplateforme</b> : Interface réactive et fluide développée avec <i>Expo Router</i> et <i>React Native</i>.</li>
       </ul>
-      <p><b>Technologies :</b> React Native, Expo 57, TypeScript, Express.js, MySQL</p>
+      <p><b>Tech :</b> <code>React Native</code> • <code>Expo</code> • <code>TypeScript</code> • <code>Express.js</code> • <code>MySQL</code></p>
     </td>
     <td width="40%" align="center">
       <a href="https://github.com/salouaulk3/Hanout-Plus">
-        <img src="https://img.shields.io/badge/View_Repository-054687?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
+      <h3>📦 <a href="https://github.com/salouaulk3/gestion-de-stock">Gestion de Stock</a></h3>
+      <p><b>Système Moderne de Suivi & Contrôle des Inventaires</b></p>
+      <ul>
+        <li><b>Inventaire en temps réel</b> : Suivi des entrées, sorties et niveaux d'alerte de stock.</li>
+        <li><b>Organisation par catégories</b> : Gestion intuitive des articles, prix et fiches produits.</li>
+        <li><b>Traçabilité complète</b> : Historique des mouvements de stock et gestion des approvisionnements.</li>
+      </ul>
+      <p><b>Tech :</b> <code>JavaScript</code> • <code>Architecture Modulaire</code> • <code>Bases de données</code></p>
+    </td>
+    <td width="40%" align="center">
+      <a href="https://github.com/salouaulk3/gestion-de-stock">
+        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
       </a>
     </td>
   </tr>
@@ -79,21 +110,20 @@
 
 ---
 
-##  GitHub Analytics
+### 📊 Statistiques GitHub / Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=salouaulk3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Saloua's GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salouaulk3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=salouaulk3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&icon_color=38bdf8" alt="Statistiques de Saloua" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salouaulk3&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8" alt="Langages les plus utilisés" height="170" />
 </div>
 
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salouaulk3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salouaulk3&theme=tokyonight&hide_border=true&stroke=38bdf8&ring=38bdf8&fire=38bdf8" alt="GitHub Streak" />
+</p>
 
 ---
 
 <div align="center">
-  <sub> a Designed with dedication Open to collaborations and impactful engineering challenges!</sub>
+  <p>💡 <i>« Créer des logiciels utiles qui résolvent des défis concrets du quotidien. »</i></p>
+  <sub>Conçu avec passion • Ouverte aux collaborations & opportunités professionnelles</sub>
 </div>
