@@ -110,18 +110,6 @@
 
 ---
 
-### 📊 Statistiques GitHub / Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=salouaulk3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&icon_color=38bdf8" alt="Statistiques de Saloua" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salouaulk3&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8" alt="Langages les plus utilisés" height="170" />
-</div>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salouaulk3&theme=tokyonight&hide_border=true&stroke=38bdf8&ring=38bdf8&fire=38bdf8" alt="GitHub Streak" />
-</p>
-
----
 
 <div align="center">
   <p>💡 <i>« Créer des logiciels utiles qui résolvent des défis concrets du quotidien. »</i></p>
