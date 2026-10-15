@@ -68,12 +68,12 @@
 
 ---
 
-### 🌟 Projets Phares / VHS Showcase Archives
+### 🌟 Projets Phares / Featured Projects
 
 <div align="center">
 
   <a href="https://github.com/salouaulk3/Hanout-Plus">
-    <img src="./assets/vhs-showcase.png" alt="Vintage VHS Spine 3D Interactive Portfolio - Saloua Ulk" width="100%" />
+    <img src="https://raw.githubusercontent.com/salouaulk3/salouaulk3/main/assets/vhs-showcase.png" alt="Vintage VHS Spine 3D Interactive Portfolio" width="100%" />
   </a>
 
   <br />
