@@ -69,16 +69,7 @@
 ---
 
 
-    <td width="38%" align="center">
-      <a href="https://github.com/salouaulk3/salouaulk3/tree/main/portfolio">
-        <img src="https://img.shields.io/badge/Consulter_le_Projet-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
-      </a>
-      <br /><br />
-      <a href="https://salouaulk3.github.io/salouaulk3/portfolio/">
-        <img src="https://img.shields.io/badge/Démo_Interactive-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
-      </a>
-    </td>
-  </tr>
+   
   <tr>
     <td width="62%">
       <h3>🛒 <a href="https://github.com/salouaulk3/Hanout-Plus">HANOT+ (Hanout-Plus)</a></h3>
