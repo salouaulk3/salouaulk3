@@ -1,0 +1,676 @@
+/* ==========================================================================
+   VINTAGE VHS SPINE 3D INTERACTIVE PORTFOLIO
+   Minimalist Cutout Aesthetic inspired by Akira Kurosawa VHS Archive
+   Clean Visual Isolation on Solid #0a0a0a — Zero Clutter, Zero Borders
+   ========================================================================== */
+
+:root {
+  --bg-color: transparent;
+  --text-main: #1f2328;
+  --text-muted: #656d76;
+  --accent-red: #d32f2f;
+  --accent-gold: #b45309;
+  
+  --spine-w: 44px;
+  --cover-w: 220px;
+  --expanded-w: 290px;
+  --tape-h: 330px;
+  
+  --font-serif: 'Cinzel', 'Shippori Mincho', serif;
+  --font-sans: 'Space Grotesk', -apple-system, sans-serif;
+  --font-mono: 'VT323', monospace;
+  --font-body: 'Inter', sans-serif;
+  
+  --spring-easing: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-main: #f5f5f7;
+    --text-muted: #8b949e;
+    --accent-gold: #c5a059;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --------------------------------------------------------------------------
+   MAIN CONTAINER (Transparent background, no black box)
+   -------------------------------------------------------------------------- */
+.vhs-app {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px 36px 18px;
+  background: transparent;
+  user-select: none;
+}
+
+/* --------------------------------------------------------------------------
+   1. MINIMALIST RETRO HEADER
+   -------------------------------------------------------------------------- */
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tag-link {
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid rgba(125, 125, 125, 0.3);
+  border-radius: 2px;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.tag-link:hover {
+  background: var(--text-main);
+  color: #fff;
+  border-color: var(--text-main);
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+}
+
+.author-branding {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.kanji-seal {
+  background-color: var(--accent-red);
+  color: #ffffff;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+}
+
+.author-name {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--text-main);
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.era-tag {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   2. FILTER PILLS (Floating, borderless bar)
+   -------------------------------------------------------------------------- */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.pill-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 5px 14px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pill-btn:hover {
+  color: var(--text-main);
+}
+
+.pill-btn.active {
+  background: var(--text-main);
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pill-btn.active {
+    color: #000;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. 3D VHS SHELF VIEWPORT & TRACK
+   -------------------------------------------------------------------------- */
+.shelf-viewport {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1100px;
+  perspective-origin: 50% 55%;
+  padding: 10px 0;
+  overflow: visible;
+}
+
+.shelf-track {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  height: calc(var(--tape-h) + 30px);
+  padding: 15px 20px 10px;
+  transform-style: preserve-3d;
+  overflow-x: auto;
+  overflow-y: visible;
+  scrollbar-width: none; /* Hide scrollbars for clean look */
+}
+
+.shelf-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   4. VHS ITEM (3D Chassis)
+   -------------------------------------------------------------------------- */
+.vhs-item {
+  position: relative;
+  width: var(--spine-w);
+  height: var(--tape-h);
+  flex-shrink: 0;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: width 0.5s var(--spring-easing), opacity 0.35s ease;
+  will-change: width, transform;
+}
+
+.vhs-item.dimmed {
+  opacity: 0.2;
+  filter: grayscale(80%);
+  pointer-events: none;
+}
+
+.vhs-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s var(--spring-easing);
+  will-change: transform;
+}
+
+/* --------------------------------------------------------------------------
+   SPINE VIEW (Default)
+   -------------------------------------------------------------------------- */
+.vhs-spine-view {
+  position: absolute;
+  inset: 0;
+  width: var(--spine-w);
+  height: var(--tape-h);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 
+    inset 1px 0 2px rgba(255, 255, 255, 0.12),
+    inset -1px 0 3px rgba(0, 0, 0, 0.6),
+    0 8px 24px rgba(0, 0, 0, 0.85);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+/* Vintage cardboard wear gradient across spine */
+.vhs-spine-view::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0.06) 0%, transparent 20%, rgba(0,0,0,0.3) 80%, rgba(255,255,255,0.04) 100%);
+  pointer-events: none;
+}
+
+.spine-badge {
+  font-family: var(--font-sans);
+  font-size: 0.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  background: #000000;
+  color: #ffffff;
+  padding: 1px 4px;
+  border-radius: 1px;
+  line-height: 1.1;
+  text-align: center;
+  z-index: 2;
+}
+
+.spine-title-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  z-index: 2;
+  margin: 6px 0;
+}
+
+.spine-title-text {
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  white-space: nowrap;
+}
+
+.spine-kanji-text {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 6px;
+  letter-spacing: 0.08em;
+}
+
+.spine-bottom-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  z-index: 2;
+}
+
+.vhs-tag {
+  font-family: var(--font-sans);
+  font-size: 0.55rem;
+  font-weight: 900;
+  background: #000;
+  color: #fff;
+  padding: 1px 3px;
+  border-radius: 1px;
+}
+
+.vhs-code {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* --------------------------------------------------------------------------
+   EXPANDED 3D COVER & CASSETTE (Hover / Active)
+   -------------------------------------------------------------------------- */
+.vhs-expand-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--expanded-w);
+  height: var(--tape-h);
+  opacity: 0;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  transition: opacity 0.35s ease, transform 0.5s var(--spring-easing);
+  transform: translate3d(0, 0, -10px);
+}
+
+/* Clean Front Cardboard Slipcase (Edge-to-Edge Borderless Art) */
+.front-slipcase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--cover-w);
+  height: var(--tape-h);
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 
+    -12px 18px 36px rgba(0, 0, 0, 0.9),
+    0 2px 10px rgba(0, 0, 0, 0.6);
+  transform: translate3d(0, 0, 25px) rotateY(-5deg);
+  transform-style: preserve-3d;
+  z-index: 10;
+  overflow: hidden;
+  transition: transform 0.5s var(--spring-easing);
+}
+
+/* Subtle vintage card patina */
+.front-slipcase::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, transparent 45%, rgba(0,0,0,0.25) 100%);
+  pointer-events: none;
+}
+
+/* Clean VHS Cassette Tape sliding out on the right */
+.cassette-cutout {
+  position: absolute;
+  top: 8px;
+  left: 145px;
+  width: 135px;
+  height: calc(var(--tape-h) - 16px);
+  background: #111113;
+  border-radius: 3px;
+  box-shadow: 
+    8px 12px 24px rgba(0, 0, 0, 0.95),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.1);
+  transform: translate3d(0, -6px, -15px) rotateY(10deg);
+  transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 6px;
+  z-index: 5;
+  transition: transform 0.5s var(--spring-easing);
+}
+
+.cassette-reels {
+  width: 86%;
+  height: 80px;
+  background: #08080a;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #222227;
+}
+
+.spool-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f0f0f5 15%, #27272e 18%, #141416 52%, #382415 54%, #181008 100%);
+  border: 2px solid #282830;
+  position: relative;
+}
+
+.spool-teeth {
+  position: absolute;
+  inset: 8px;
+  border: 1.5px dashed #ffffff;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: spoolSpin 10s linear infinite;
+}
+
+@keyframes spoolSpin {
+  100% { transform: rotate(360deg); }
+}
+
+.cassette-label {
+  width: 90%;
+  background: #f7f4eb;
+  color: #111111;
+  border-radius: 2px;
+  padding: 6px 5px;
+  font-family: var(--font-mono);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  border-left: 2px solid var(--accent-red);
+}
+
+.label-title {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.6rem;
+  line-height: 1.1;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.label-meta {
+  font-size: 0.72rem;
+  color: #444;
+  line-height: 1.2;
+}
+
+.label-barcode {
+  height: 12px;
+  background: repeating-linear-gradient(
+    90deg,
+    #000 0px, #000 1.5px,
+    transparent 1.5px, transparent 3px,
+    #000 3px, #000 4px,
+    transparent 4px, transparent 6px
+  );
+  margin-top: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   HOVER & ACTIVE STATES (Smooth 3D Expand)
+   -------------------------------------------------------------------------- */
+.vhs-item:hover,
+.vhs-item.active {
+  width: var(--expanded-w);
+  z-index: 40;
+}
+
+.vhs-item:hover .vhs-card,
+.vhs-item.active .vhs-card {
+  transform: translate3d(0, -12px, 50px);
+}
+
+.vhs-item:hover .vhs-spine-view,
+.vhs-item.active .vhs-spine-view {
+  opacity: 0;
+  pointer-events: none;
+  transform: rotateY(-90deg);
+}
+
+.vhs-item:hover .vhs-expand-view,
+.vhs-item.active .vhs-expand-view {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate3d(0, 0, 10px);
+}
+
+.vhs-item:hover .front-slipcase,
+.vhs-item.active .front-slipcase {
+  transform: translate3d(0, 0, 25px) rotateY(-5deg);
+}
+
+.vhs-item:hover .cassette-cutout,
+.vhs-item.active .cassette-cutout {
+  transform: translate3d(55px, -8px, -5px) rotateY(12deg);
+}
+
+/* --------------------------------------------------------------------------
+   5. MINIMALIST SHOWCASE INFO (No Box, No Borders)
+   -------------------------------------------------------------------------- */
+.meta-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.showcase-nav-btn {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+  padding: 4px 10px;
+}
+
+.showcase-nav-btn:hover {
+  color: var(--text-main);
+  transform: scale(1.15);
+}
+
+.showcase-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.project-title {
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-main);
+  text-transform: uppercase;
+  transition: opacity 0.25s ease, color 0.2s ease;
+  line-height: 1.1;
+}
+
+.project-title:hover {
+  color: var(--accent-gold);
+}
+
+.project-subtitle {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  color: var(--accent-red);
+  margin-top: 4px;
+  font-weight: 600;
+  transition: opacity 0.25s ease;
+}
+
+.project-meta-line {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-top: 6px;
+  transition: opacity 0.25s ease;
+}
+
+/* --------------------------------------------------------------------------
+   6. APP FOOTER (Pure Minimalist Line)
+   -------------------------------------------------------------------------- */
+.app-footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  padding-top: 10px;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.direct-hint {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.footer-right a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-right a:hover {
+  color: #ffffff;
+}
+
+.slash {
+  opacity: 0.3;
+}
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE DESIGN
+   -------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  :root {
+    --spine-w: 38px;
+    --cover-w: 190px;
+    --expanded-w: 250px;
+    --tape-h: 290px;
+  }
+
+  .project-title {
+    font-size: 1.45rem;
+  }
+
+  .vhs-app {
+    padding: 16px 20px 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app-header {
+    grid-template-columns: 1fr auto;
+  }
+  .header-right {
+    display: none;
+  }
+
+  .app-footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 8px;
+  }
+  .footer-right, .footer-left {
+    justify-content: center;
+  }
+
+  .shelf-track {
+    justify-content: flex-start;
+  }
+}

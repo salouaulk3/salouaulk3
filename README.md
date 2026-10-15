@@ -70,30 +70,65 @@
 
 ### 🌟 Projets Phares / Featured Projects
 
-<div align="center">
-
-  <a href="https://github.com/salouaulk3/Hanout-Plus">
-    <img src="https://raw.githubusercontent.com/salouaulk3/salouaulk3/main/assets/vhs-showcase.png" alt="Vintage VHS Spine 3D Interactive Portfolio" width="100%" />
-  </a>
-
-  <br />
-
-  <p align="center">
-    <a href="https://github.com/salouaulk3/Hanout-Plus">
-      <img src="https://img.shields.io/badge/🛒_HANOT%2B-React_Native_%E2%80%A2_Expo-0284c7?style=flat-square" alt="HANOT+" />
-    </a>
-    <a href="https://github.com/salouaulk3/moroccopay-enterprise">
-      <img src="https://img.shields.io/badge/💳_MoroccoPay-Python_%E2%80%A2_FastAPI-d32f2f?style=flat-square" alt="MoroccoPay Enterprise" />
-    </a>
-    <a href="https://github.com/salouaulk3/gestion-de-stock">
-      <img src="https://img.shields.io/badge/📦_Gestion_de_Stock-JavaScript_%E2%80%A2_SQL-10b981?style=flat-square" alt="Gestion de Stock" />
-    </a>
-    <a href="https://github.com/salouaulk3/grilli">
-      <img src="https://img.shields.io/badge/🍽️_Grilli-HTML5_%E2%80%A2_CSS3-eab308?style=flat-square" alt="Grilli" />
-    </a>
-  </p>
-
-</div>
+<table>
+  <tr>
+    <td width="62%">
+      <h3>📼 <a href="https://github.com/salouaulk3/salouaulk3/tree/main/portfolio">Vintage VHS 3D Interactive Portfolio</a></h3>
+      <p><b>Showcase 3D Interactif inspiré de l'Esthétique VHS Vintage & Akira Kurosawa</b></p>
+      <ul>
+        <li><b>Animation 3D Fluide</b> : Rayon de tranches de cassettes VHS qui s'élargissent et se déplient en 3D au survol avec cassette sortante (accélération matérielle <code>perspective(1100px) rotateY</code>).</li>
+        <li><b>Design Découpe Nette (Cutout)</b> : Épuré, sans bordure artificielle et avec arrière-plan transparent, s'adaptant naturellement aux thèmes clair et sombre de GitHub.</li>
+        <li><b>Navigation & Audio Rétro</b> : Filtres par catégories, navigation au clavier (flèches <code>←</code> / <code>→</code>) et effets sonores synthétisés avec la <i>Web Audio API</i>.</li>
+        <li><b>Redirection Dépôts</b> : Clic direct sur chaque cassette pour ouvrir le dépôt GitHub correspondant.</li>
+      </ul>
+      <p><b>Tech :</b> <code>HTML5</code> • <code>CSS 3D Transforms</code> • <code>JavaScript (ES6+)</code> • <code>Web Audio API</code> • <code>UI/UX Design</code></p>
+    </td>
+    <td width="38%" align="center">
+      <a href="https://github.com/salouaulk3/salouaulk3/tree/main/portfolio">
+        <img src="https://img.shields.io/badge/Consulter_le_Projet-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
+      </a>
+      <br /><br />
+      <a href="https://salouaulk3.github.io/salouaulk3/portfolio/">
+        <img src="https://img.shields.io/badge/Démo_Interactive-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="62%">
+      <h3>🛒 <a href="https://github.com/salouaulk3/Hanout-Plus">HANOT+ (Hanout-Plus)</a></h3>
+      <p><b>Solution Numérique Complète pour Commerçants et Épiceries</b></p>
+      <ul>
+        <li><b>Gestion des crédits et dettes</b> : Enregistrement simplifié des dettes clients (karnet numérique sécurisé).</li>
+        <li><b>Suivi des règlements</b> : Historique des paiements en temps réel et soldes actualisés.</li>
+        <li><b>Tableau de bord financier</b> : Synthèse claire des encaissements, créances et indicateurs clés.</li>
+        <li><b>Expérience Multiplateforme</b> : Interface réactive développée avec <i>Expo Router</i> et <i>React Native</i>.</li>
+      </ul>
+      <p><b>Tech :</b> <code>React Native</code> • <code>Expo</code> • <code>TypeScript</code> • <code>Express.js</code> • <code>MySQL</code></p>
+    </td>
+    <td width="38%" align="center">
+      <a href="https://github.com/salouaulk3/Hanout-Plus">
+        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="62%">
+      <h3>📦 <a href="https://github.com/salouaulk3/gestion-de-stock">Gestion de Stock</a></h3>
+      <p><b>Système Moderne de Suivi & Contrôle des Inventaires</b></p>
+      <ul>
+        <li><b>Inventaire en temps réel</b> : Suivi des entrées, sorties et niveaux d'alerte de stock.</li>
+        <li><b>Organisation par catégories</b> : Gestion intuitive des articles, prix et fiches produits.</li>
+        <li><b>Traçabilité complète</b> : Historique des mouvements de stock et gestion des approvisionnements.</li>
+      </ul>
+      <p><b>Tech :</b> <code>JavaScript</code> • <code>Architecture Modulaire</code> • <code>Bases de données</code></p>
+    </td>
+    <td width="38%" align="center">
+      <a href="https://github.com/salouaulk3/gestion-de-stock">
+        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SALOUA ULK — Vintage VHS 3D Interactive Portfolio</title>
+  <meta name="description" content="Clean minimalist 3D vintage VHS bookshelf portfolio component. Smooth 3D expand transitions and direct GitHub repository integration.">
+  
+  <!-- Minimalist Typography (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600&family=Shippori+Mincho:wght@500;700&family=Space+Grotesk:wght@500;600;700&family=VT323&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+
+  <!-- Clean Minimalist Canvas (Solid #0a0a0a, no background clutter) -->
+  <main class="vhs-app" id="vhsApp">
+    
+    <!-- Header: Minimalist Retro Cinema Archive -->
+    <header class="app-header">
+      <div class="header-side header-left">
+        <a href="https://github.com/salouaulk3" target="_blank" rel="noopener noreferrer" class="tag-link">
+          BACK / 戻面
+        </a>
+      </div>
+
+      <div class="header-center">
+        <div class="author-branding">
+          <span class="kanji-seal">開発者</span>
+          <span class="author-name">SALOUA ULK</span>
+        </div>
+      </div>
+
+      <div class="header-side header-right">
+        <span class="era-tag">CAREER 2023年〜2026年</span>
+      </div>
+    </header>
+
+    <!-- Filter Pills (ALL / すべて, etc. - clean, borderless floating bar) -->
+    <nav class="filter-bar" aria-label="Project Eras and Categories">
+      <button class="pill-btn active" data-filter="all">ALL / すべて</button>
+      <button class="pill-btn" data-filter="mobile">MOBILE</button>
+      <button class="pill-btn" data-filter="fintech">FINTECH</button>
+      <button class="pill-btn" data-filter="systems">SYSTEMS</button>
+      <button class="pill-btn" data-filter="web">WEB &amp; UI</button>
+      <button class="pill-btn" data-filter="cinema">TRIBUTE</button>
+    </nav>
+
+    <!-- 3D VHS Bookshelf Track (Horizontal row of vertical spines) -->
+    <section class="shelf-viewport" aria-label="Interactive VHS Shelf">
+      <div class="shelf-track" id="shelfTrack">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- Minimalist Project Showcase (Directly underneath active tape, unboxed, no borders) -->
+    <section class="meta-showcase" aria-live="polite">
+      <div class="showcase-nav-btn prev" id="btnPrev" title="Previous Project" aria-label="Previous">&larr;</div>
+      
+      <div class="showcase-info" id="showcaseInfo">
+        <h2 class="project-title" id="projectTitle">HANOT+ (Hanout-Plus)</h2>
+        <div class="project-subtitle" id="projectSubtitle">ハノートプラス / COMMERCIAL CREDIT APP</div>
+        <div class="project-meta-line" id="projectMetaLine">2024 • React Native • Expo • TypeScript • MySQL</div>
+      </div>
+
+      <div class="showcase-nav-btn next" id="btnNext" title="Next Project" aria-label="Next">&rarr;</div>
+    </section>
+
+    <!-- Footer: Simple Minimalist Bottom Line -->
+    <footer class="app-footer">
+      <div class="footer-left">
+        <span>&copy; ALL RIGHTS RESERVED.</span>
+      </div>
+      <div class="footer-center">
+        <span class="direct-hint">CLICK ANY TAPE TO LAUNCH GITHUB REPO ↗</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/salouaulk3" target="_blank" rel="noopener noreferrer">GH</a>
+        <span class="slash">/</span>
+        <a href="mailto:salouaulk3@gmail.com">MAIL</a>
+        <span class="slash">/</span>
+        <a href="https://github.com/salouaulk3?tab=repositories" target="_blank" rel="noopener noreferrer">REPOS</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="app.js?v=3"></script>
+</body>
+</html>
