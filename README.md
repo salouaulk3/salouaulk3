@@ -68,45 +68,32 @@
 
 ---
 
-### 🌟 Projets Phares / Featured Projects
+### 🌟 Projets Phares / VHS Showcase Archives
 
-<table>
-  <tr>
-    <td width="60%">
-      <h3>🛒 <a href="https://github.com/salouaulk3/Hanout-Plus">HANOT+ (Hanout-Plus)</a></h3>
-      <p><b>Solution Numérique Complète pour Commerçants et Épiceries</b></p>
-      <ul>
-        <li><b>Gestion des crédits et dettes</b> : Enregistrement simplifié des dettes clients (karnet numérique sécurisé).</li>
-        <li><b>Suivi des règlements</b> : Historique des paiements en temps réel et soldes actualisés.</li>
-        <li><b>Tableau de bord financier</b> : Synthèse claire des encaissements, créances et indicateurs clés.</li>
-        <li><b>Expérience Multiplateforme</b> : Interface réactive et fluide développée avec <i>Expo Router</i> et <i>React Native</i>.</li>
-      </ul>
-      <p><b>Tech :</b> <code>React Native</code> • <code>Expo</code> • <code>TypeScript</code> • <code>Express.js</code> • <code>MySQL</code></p>
-    </td>
-    <td width="40%" align="center">
-      <a href="https://github.com/salouaulk3/Hanout-Plus">
-        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="60%">
-      <h3>📦 <a href="https://github.com/salouaulk3/gestion-de-stock">Gestion de Stock</a></h3>
-      <p><b>Système Moderne de Suivi & Contrôle des Inventaires</b></p>
-      <ul>
-        <li><b>Inventaire en temps réel</b> : Suivi des entrées, sorties et niveaux d'alerte de stock.</li>
-        <li><b>Organisation par catégories</b> : Gestion intuitive des articles, prix et fiches produits.</li>
-        <li><b>Traçabilité complète</b> : Historique des mouvements de stock et gestion des approvisionnements.</li>
-      </ul>
-      <p><b>Tech :</b> <code>JavaScript</code> • <code>Architecture Modulaire</code> • <code>Bases de données</code></p>
-    </td>
-    <td width="40%" align="center">
-      <a href="https://github.com/salouaulk3/gestion-de-stock">
-        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+  <a href="https://github.com/salouaulk3/Hanout-Plus">
+    <img src="./assets/vhs-showcase.png" alt="Vintage VHS Spine 3D Interactive Portfolio - Saloua Ulk" width="100%" />
+  </a>
+
+  <br />
+
+  <p align="center">
+    <a href="https://github.com/salouaulk3/Hanout-Plus">
+      <img src="https://img.shields.io/badge/🛒_HANOT%2B-React_Native_%E2%80%A2_Expo-0284c7?style=flat-square" alt="HANOT+" />
+    </a>
+    <a href="https://github.com/salouaulk3/moroccopay-enterprise">
+      <img src="https://img.shields.io/badge/💳_MoroccoPay-Python_%E2%80%A2_FastAPI-d32f2f?style=flat-square" alt="MoroccoPay Enterprise" />
+    </a>
+    <a href="https://github.com/salouaulk3/gestion-de-stock">
+      <img src="https://img.shields.io/badge/📦_Gestion_de_Stock-JavaScript_%E2%80%A2_SQL-10b981?style=flat-square" alt="Gestion de Stock" />
+    </a>
+    <a href="https://github.com/salouaulk3/grilli">
+      <img src="https://img.shields.io/badge/🍽️_Grilli-HTML5_%E2%80%A2_CSS3-eab308?style=flat-square" alt="Grilli" />
+    </a>
+  </p>
+
+</div>
 
 ---
 
