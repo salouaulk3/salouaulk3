@@ -68,21 +68,7 @@
 
 ---
 
-### 🌟 Projets Phares / Featured Projects
 
-<table>
-  <tr>
-    <td width="62%">
-      <h3>📼 <a href="https://github.com/salouaulk3/salouaulk3/tree/main/portfolio">Vintage VHS 3D Interactive Portfolio</a></h3>
-      <p><b>Showcase 3D Interactif inspiré de l'Esthétique VHS Vintage & Akira Kurosawa</b></p>
-      <ul>
-        <li><b>Animation 3D Fluide</b> : Rayon de tranches de cassettes VHS qui s'élargissent et se déplient en 3D au survol avec cassette sortante (accélération matérielle <code>perspective(1100px) rotateY</code>).</li>
-        <li><b>Design Découpe Nette (Cutout)</b> : Épuré, sans bordure artificielle et avec arrière-plan transparent, s'adaptant naturellement aux thèmes clair et sombre de GitHub.</li>
-        <li><b>Navigation & Audio Rétro</b> : Filtres par catégories, navigation au clavier (flèches <code>←</code> / <code>→</code>) et effets sonores synthétisés avec la <i>Web Audio API</i>.</li>
-        <li><b>Redirection Dépôts</b> : Clic direct sur chaque cassette pour ouvrir le dépôt GitHub correspondant.</li>
-      </ul>
-      <p><b>Tech :</b> <code>HTML5</code> • <code>CSS 3D Transforms</code> • <code>JavaScript (ES6+)</code> • <code>Web Audio API</code> • <code>UI/UX Design</code></p>
-    </td>
     <td width="38%" align="center">
       <a href="https://github.com/salouaulk3/salouaulk3/tree/main/portfolio">
         <img src="https://img.shields.io/badge/Consulter_le_Projet-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
