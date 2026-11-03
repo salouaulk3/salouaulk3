@@ -1,116 +1,60 @@
 <div align="center">
 
-  <!-- Dynamic Typing Header Banner -->
-  <a href="https://github.com/salouaulk3">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=70&lines=Bonjour%2C+je+suis+Saloua+%F0%9F%91%8B;Full-Stack+%26+Mobile+Developer+%F0%9F%9A%80;Cr%C3%A9atrice+de+HANOT%2B+(Hanout-Plus)+%F0%9F%9B%92;React+Native+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Python" alt="Typing SVG" />
-  </a>
+# Saloua
 
-  <p align="center">
-    <b>Crafting High-Performance Mobile & Web Solutions with Clean UI/UX</b>
-  </p>
+### Full-Stack & Mobile Developer
 
-  <!-- Quick Action Badges -->
-  <p align="center">
-    <a href="https://github.com/salouaulk3">
-      <img src="https://img.shields.io/badge/GitHub-salouaulk3-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <a href="https://github.com/salouaulk3/Hanout-Plus">
-      <img src="https://img.shields.io/badge/Featured-HANOT%2B-0284C7?style=for-the-badge&logo=expo&logoColor=white" alt="HANOT+" />
-    </a>
-    <a href="mailto:salouaulk3@gmail.com">
-      <img src="https://img.shields.io/badge/Contact-salouaulk3%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <img src="https://img.shields.io/badge/Statut-Disponible-10B981?style=for-the-badge" alt="Status" />
-  </p>
+I build practical web and mobile applications with thoughtful interfaces and reliable foundations.
 
-  <!-- Profile Views Counter -->
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=salouaulk3&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
-  </p>
+[![GitHub](https://img.shields.io/badge/GitHub-salouaulk3-181717?style=flat-square&logo=github)](https://github.com/salouaulk3)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:salouaulk3@gmail.com)
 
 </div>
 
 ---
 
-### 💫 À propos de moi / About Me
+## About
 
-- 🚀 **Développeuse Full-Stack & Mobile**, passionnée par la création de produits numériques complets, performants et intuitifs.
-- 🛍️ **Créatrice & Mainteneur de [HANOT+ (Hanout-Plus)](https://github.com/salouaulk3/Hanout-Plus)** — Une suite moderne de gestion commerciale et suivi des créances (carnet de crédit numérique) pour commerçants et épiceries.
-- 📦 **Auteur de [Gestion de Stock](https://github.com/salouaulk3/gestion-de-stock)** — Outil optimisé pour le suivi des inventaires, mouvements et approvisionnements.
-- 🎯 **Focus d'expertise** : Architectures réactives, interfaces utilisateur soignées (UI/UX), APIs REST sécurisées et scalables.
-- ⚡ **Stack de prédilection** : React Native, Expo, TypeScript, Node.js, Express, Python et MySQL.
+**FR** — Développeuse full-stack et mobile, je conçois des applications utiles et accessibles, de l’interface utilisateur aux fonctionnalités côté serveur. Je m’intéresse particulièrement aux outils numériques qui répondent à des besoins concrets.
 
----
+**EN** — Full-stack and mobile developer focused on building useful, user-friendly applications—from polished interfaces to backend features. I’m especially interested in digital tools that solve practical, everyday problems.
 
-### 🛠️ Technologies & Outils
+- 📱 Mobile development with **React Native**, **Expo** and **TypeScript**
+- 🌐 Web development with **React**, **JavaScript** and **CSS**
+- ⚙️ Backend development with **Node.js**, **Express** and **REST APIs**
+- 🗄️ Working with **MySQL** and relational data
+
+## Featured projects
+
+### [HANOT+](https://github.com/salouaulk3/Hanout-Plus)
+A digital management solution for local shops, focused on tracking customer credit and payments.
+
+`React Native` · `Expo` · `TypeScript` · `Node.js` · `MySQL`
+
+### [Atlas Hardware Maroc](https://github.com/salouaulk3/atlas-hardware-maroc)
+A responsive e-commerce storefront for computer components, built with React and Vite.
+
+`React` · `Vite` · `Tailwind CSS`
+
+### [Gestion de Stock](https://github.com/salouaulk3/gestion-de-stock)
+An inventory-management project for organizing products and monitoring stock movements.
+
+`JavaScript` · `HTML` · `CSS`
+
+## Tech stack
 
 <div align="center">
 
-  <!-- Interactive Skill Icons Grid -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,mysql,html,css,git,github,vscode,postman,figma&theme=dark" alt="Skills" />
-  </a>
+[![My skills](https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,mysql,html,css,git,github,vscode,postman,figma&theme=dark)](https://skillicons.dev)
 
 </div>
 
-<br />
+## Let’s connect
+
+Interested in collaborating or discussing a project? [Send me an email](mailto:salouaulk3@gmail.com) or explore my [repositories](https://github.com/salouaulk3?tab=repositories).
 
 <div align="center">
 
-| Domaine | Technologies |
-| :--- | :--- |
-| **Mobile & Frontend** | `React Native` • `Expo` • `React.js` • `TypeScript` • `JavaScript (ES6+)` • `HTML5 / CSS3` |
-| **Backend & APIs** | `Node.js` • `Express.js` • `Python` • `REST APIs` • `JWT & Auth` |
-| **Bases de Données** | `MySQL` • `SQL Relational Architecture` |
-| **Outils & Workflow** | `Git` • `GitHub` • `VS Code` • `Metro Bundler` • `Postman` |
+*Building useful things, one step at a time.*
 
-</div>
-
----
-
-
-   
-  <tr>
-    <td width="62%">
-      <h3>🛒 <a href="https://github.com/salouaulk3/Hanout-Plus">HANOT+ (Hanout-Plus)</a></h3>
-      <p><b>Solution Numérique Complète pour Commerçants et Épiceries</b></p>
-      <ul>
-        <li><b>Gestion des crédits et dettes</b> : Enregistrement simplifié des dettes clients (karnet numérique sécurisé).</li>
-        <li><b>Suivi des règlements</b> : Historique des paiements en temps réel et soldes actualisés.</li>
-        <li><b>Tableau de bord financier</b> : Synthèse claire des encaissements, créances et indicateurs clés.</li>
-        <li><b>Expérience Multiplateforme</b> : Interface réactive développée avec <i>Expo Router</i> et <i>React Native</i>.</li>
-      </ul>
-      <p><b>Tech :</b> <code>React Native</code> • <code>Expo</code> • <code>TypeScript</code> • <code>Express.js</code> • <code>MySQL</code></p>
-    </td>
-    <td width="38%" align="center">
-      <a href="https://github.com/salouaulk3/Hanout-Plus">
-        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="62%">
-      <h3>📦 <a href="https://github.com/salouaulk3/gestion-de-stock">Gestion de Stock</a></h3>
-      <p><b>Système Moderne de Suivi & Contrôle des Inventaires</b></p>
-      <ul>
-        <li><b>Inventaire en temps réel</b> : Suivi des entrées, sorties et niveaux d'alerte de stock.</li>
-        <li><b>Organisation par catégories</b> : Gestion intuitive des articles, prix et fiches produits.</li>
-        <li><b>Traçabilité complète</b> : Historique des mouvements de stock et gestion des approvisionnements.</li>
-      </ul>
-      <p><b>Tech :</b> <code>JavaScript</code> • <code>Architecture Modulaire</code> • <code>Bases de données</code></p>
-    </td>
-    <td width="38%" align="center">
-      <a href="https://github.com/salouaulk3/gestion-de-stock">
-        <img src="https://img.shields.io/badge/Consulter_le_Dépôt-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-
-<div align="center">
-  <p>💡 <i>« Créer des logiciels utiles qui résolvent des défis concrets du quotidien. »</i></p>
-  <sub>Conçu avec passion • Ouverte aux collaborations & opportunités professionnelles</sub>
 </div>
