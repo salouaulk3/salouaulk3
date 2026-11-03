@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Saloua's red ninja mascot</title>
+  <desc id="desc">A small white-hooded ninja with red accents, gently bouncing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24101a"/>
+      <stop offset="1" stop-color="#100d14"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf7"/>
+      <stop offset="1" stop-color="#d9d5df"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="224" height="224" rx="48" fill="url(#bg)" stroke="#ff4d6d" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="120" cy="116" r="78" fill="#ff3158" opacity=".11" filter="url(#glow)"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="2.4s" repeatCount="indefinite"/>
+    <!-- little sword -->
+    <path d="M174 122l24-39 6 4-18 43-9 5z" fill="#d9e3f0" stroke="#fff" stroke-width="2"/>
+    <path d="M174 134l13-8 7 8-11 11z" fill="#ff4d6d"/>
+    <!-- body -->
+    <path d="M78 151q42-19 84 0l17 48q-57 29-118 0z" fill="url(#cloth)" stroke="#c9c4d0" stroke-width="2"/>
+    <path d="M91 158l55 36m6-36-54 36" fill="none" stroke="#c6c1cc" stroke-width="8"/>
+    <path d="M86 180q34 11 68 0" fill="none" stroke="#ff4d6d" stroke-width="5"/>
+    <!-- arms -->
+    <path d="M81 158l-22 26q-8 10 3 16t18-5l20-23m61-14 20 24q8 11-3 17t-18-5l-20-24" fill="url(#cloth)" stroke="#c9c4d0" stroke-width="2" stroke-linejoin="round"/>
+    <!-- legs -->
+    <path d="M91 194l-9 23q-4 11 7 13h26q9-2 6-12l-3-24m32 0-3 24q-3 10 7 12h25q11-2 7-13l-9-23" fill="url(#cloth)" stroke="#c9c4d0" stroke-width="2"/>
+    <!-- hood -->
+    <path d="M61 94q0-61 59-66 59 5 59 66v37q-4 28-59 31-55-3-59-31z" fill="url(#cloth)" stroke="#c9c4d0" stroke-width="3"/>
+    <path d="M68 104q52-14 104 0v30q-52 15-104 0z" fill="#f2dce0" stroke="#d7bfc6" stroke-width="2"/>
+    <!-- focused eyes -->
+    <path d="M83 112l25 9-2 18q-19-3-23-27zm74 0-25 9 2 18q19-3 23-27z" fill="#17131c"/>
+    <path d="M80 107l31 10m49-10-31 10" stroke="#ff4d6d" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+    <!-- headband accent -->
+    <path d="M62 88q58-18 116 0" fill="none" stroke="#ff4d6d" stroke-width="5" opacity=".85"/>
+    <path d="M178 93l16 7-13 8" fill="none" stroke="#ff4d6d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M48 211h144" stroke="#ff4d6d" stroke-opacity=".55" stroke-width="2"/>
+  <text x="120" y="224" text-anchor="middle" fill="#ff8a9e" font-family="monospace" font-size="9" letter-spacing="2">PIXEL NINJA</text>
+</svg>
