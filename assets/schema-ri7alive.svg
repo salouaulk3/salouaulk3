@@ -1,92 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
-<title id="title">Schéma réaliste du concept Ri7aLive</title>
-<desc id="desc">Trois étapes: mesure d'une empreinte odorante dans un restaurant, traitement et envoi de données, puis restitution approximative par un appareil à cartouches équipé de micro-pompes et d'une chambre de mélange.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" role="img" aria-labelledby="title desc">
+<title id="title">Ri7aLive — schéma final du concept et composants du diffuseur</title>
+<desc id="desc">Infographie en français marocain montrant la mesure d'une empreinte odorante, son analyse numérique et sa restitution approximative par un appareil détaillé avec cartouches, pompes, vannes, chambre de mélange, ventilateur, capteurs, carte électronique et alimentation.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9f6f1"/><stop offset="1" stop-color="#eee8e0"/></linearGradient>
-  <linearGradient id="navy" x1="0" x2="1"><stop stop-color="#173956"/><stop offset="1" stop-color="#285c7b"/></linearGradient>
-  <linearGradient id="amber" x1="0" x2="1"><stop stop-color="#bd5926"/><stop offset="1" stop-color="#e98d43"/></linearGradient>
-  <linearGradient id="green" x1="0" x2="1"><stop stop-color="#267158"/><stop offset="1" stop-color="#49a17a"/></linearGradient>
-  <linearGradient id="device" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e4e0"/></linearGradient>
-  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#463b35" flood-opacity=".14"/></filter>
-  <marker id="arrowN" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10z" fill="#285c7b"/></marker>
-  <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10z" fill="#378568"/></marker>
-  <marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10z" fill="#db7937"/></marker>
+  <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8f6f2"/><stop offset="1" stop-color="#eee9e2"/></linearGradient>
+  <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#182b3b"/><stop offset=".58" stop-color="#30495a"/><stop offset="1" stop-color="#7e3444"/></linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a53b50"/><stop offset="1" stop-color="#d76b63"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0c98e"/><stop offset="1" stop-color="#c38a4e"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fcff"/><stop offset="1" stop-color="#dbe7ed"/></linearGradient>
+  <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".86"/><stop offset="1" stop-color="#ecd9c9" stop-opacity=".35"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#28323a" flood-opacity=".14"/></filter>
+  <marker id="arrBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#426b83"/></marker>
+  <marker id="arrRed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#b84b58"/></marker>
+  <marker id="arrGold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#c18b51"/></marker>
   <style>
-    text{font-family:Arial,'DejaVu Sans',sans-serif;fill:#25333e}.title{font-size:38px;font-weight:700;fill:#182b3a}.subtitle{font-size:17px;fill:#63727b}.step{font-size:21px;font-weight:700;fill:#fff}.label{font-size:16px;font-weight:700}.small{font-size:13px;fill:#4e5e66}.tiny{font-size:12px;fill:#5a666c}.panel{fill:#fffdfa;stroke:#e5ddd3;stroke-width:1.5}.part{fill:#f4f7f8;stroke:#7592a2;stroke-width:2}.num{font-size:17px;font-weight:700;fill:#fff}
+    text{font-family:Arial,'DejaVu Sans',sans-serif;fill:#25333d}.title{font-size:38px;font-weight:700;fill:#fffaf4;letter-spacing:.5px}.subtitle{font-size:18px;fill:#e9e2dd}.step{font-size:21px;font-weight:700;fill:#fff}.h2{font-size:20px;font-weight:700;fill:#243744}.label{font-size:15px;font-weight:700;fill:#2c3b43}.body{font-size:14px;fill:#4e5e65}.small{font-size:12px;fill:#5e6a70}.tiny{font-size:11px;fill:#67747a}.white{fill:#fff}.card{fill:#fffdf9;stroke:#e4ddd4;stroke-width:1.5}.part{fill:#f4f8fa;stroke:#829ba8;stroke-width:2}.num{font-size:13px;font-weight:700;fill:#fff}.line{fill:none;stroke:#8da0a8;stroke-width:1.7}.dash{fill:none;stroke:#bd8b64;stroke-width:2;stroke-dasharray:6 5}
   </style>
 </defs>
-<rect width="1600" height="1000" fill="url(#bg)"/>
-<text x="800" y="55" text-anchor="middle" class="title">Ri7aLive — transmettre une expérience olfactive</text>
-<text x="800" y="86" text-anchor="middle" class="subtitle">Mesurer une empreinte de l’air, envoyer des données, puis proposer une restitution approximative</text>
+<rect width="1800" height="1250" fill="url(#page)"/>
+<!-- Title -->
+<rect x="0" y="0" width="1800" height="145" fill="url(#header)"/>
+<path d="M0 126Q450 158 900 132T1800 127V145H0z" fill="#fff" opacity=".08"/>
+<text x="900" y="58" text-anchor="middle" class="title">Ri7aLive — du parfum du plat à une restitution approchée</text>
+<text x="900" y="94" text-anchor="middle" class="subtitle">L’appareil mesure une signature de l’air, puis la reconstruit avec ses cartouches — machi النقل المباشر ديال الريحة</text>
+<text x="900" y="123" text-anchor="middle" font-size="13" fill="#f1d5b5">Concept de prototype • mesure → analyse → diffusion contrôlée</text>
 
-<!-- Main panels -->
-<g filter="url(#shadow)"><rect x="38" y="125" width="470" height="690" rx="20" class="panel"/><rect x="565" y="125" width="470" height="690" rx="20" class="panel"/><rect x="1092" y="125" width="470" height="690" rx="20" class="panel"/></g>
-<path d="M38 145q0-20 20-20h430q20 0 20 20v54H38z" fill="url(#navy)"/><path d="M565 145q0-20 20-20h430q20 0 20 20v54H565z" fill="url(#amber)"/><path d="M1092 145q0-20 20-20h430q20 0 20 20v54h-470z" fill="url(#green)"/>
-<circle cx="70" cy="162" r="19" fill="#ffffff" fill-opacity=".2"/><text x="70" y="168" text-anchor="middle" class="num">1</text><text x="101" y="169" class="step">MESURER — au restaurant</text>
-<circle cx="597" cy="162" r="19" fill="#ffffff" fill-opacity=".2"/><text x="597" y="168" text-anchor="middle" class="num">2</text><text x="628" y="169" class="step">TRAITER — créer un profil</text>
-<circle cx="1124" cy="162" r="19" fill="#ffffff" fill-opacity=".2"/><text x="1124" y="168" text-anchor="middle" class="num">3</text><text x="1155" y="169" class="step">RESTITUER — chez l’utilisateur</text>
+<!-- 3 process cards -->
+<g filter="url(#shadow)"><rect x="40" y="180" width="520" height="380" rx="22" class="card"/><rect x="640" y="180" width="520" height="380" rx="22" class="card"/><rect x="1240" y="180" width="520" height="380" rx="22" class="card"/></g>
+<path d="M40 202q0-22 22-22h476q22 0 22 22v55H40z" fill="#25475e"/><path d="M640 202q0-22 22-22h476q22 0 22 22v55H640z" fill="#bd6436"/><path d="M1240 202q0-22 22-22h476q22 0 22 22v55h-520z" fill="#3b8067"/>
+<circle cx="78" cy="219" r="19" fill="#ffffff" fill-opacity=".22"/><text x="78" y="224" text-anchor="middle" class="num">1</text><text x="111" y="226" class="step">MESURER — au restaurant</text>
+<circle cx="678" cy="219" r="19" fill="#ffffff" fill-opacity=".22"/><text x="678" y="224" text-anchor="middle" class="num">2</text><text x="711" y="226" class="step">ANALYSER — créer le profil</text>
+<circle cx="1278" cy="219" r="19" fill="#ffffff" fill-opacity=".22"/><text x="1278" y="224" text-anchor="middle" class="num">3</text><text x="1311" y="226" class="step">DIFFUSER — chez l’utilisateur</text>
 
-<!-- Step 1 scene -->
-<rect x="65" y="225" width="416" height="205" rx="14" fill="#f7eee3" stroke="#e6d4c3"/>
-<path d="M87 374h368" stroke="#c5b19e" stroke-width="5"/><rect x="95" y="333" width="240" height="41" rx="5" fill="#d9c6b2"/><rect x="120" y="279" width="157" height="54" rx="6" fill="#555b5d"/><rect x="133" y="290" width="62" height="43" fill="#353c40"/><path d="M205 333v-37q0-10 12-10h50v47" fill="#656d70"/><path d="M300 344q5-47 50-47t49 47z" fill="#a9502a" stroke="#74402c" stroke-width="3"/><path d="M297 344h105" stroke="#74402c" stroke-width="5"/><path d="M316 293q-9-24 5-35m22 34q-3-31 13-42m14 43q12-22 8-35" fill="none" stroke="#d5a77e" stroke-width="4" stroke-linecap="round" opacity=".8"/>
-<text x="275" y="252" text-anchor="middle" class="label">Source: plat préparé / cuisine</text>
-<text x="275" y="404" text-anchor="middle" class="small">Prélèvement d’air près du plat — pas une capture de la recette</text>
-<!-- sampling module -->
-<rect x="76" y="465" width="390" height="292" rx="16" fill="#f9fbfc" stroke="#aabdc7" stroke-width="2"/>
-<text x="271" y="493" text-anchor="middle" class="label">Module de mesure (prototype)</text>
-<!-- airflow and filter -->
-<path d="M98 548h54" stroke="#db7937" stroke-width="4" marker-end="url(#arrowO)"/><text x="123" y="535" text-anchor="middle" class="tiny">Air ambiant</text>
-<rect x="160" y="522" width="64" height="52" rx="8" class="part"/><path d="M171 532v32m10-32v32m10-32v32m10-32v32" stroke="#b6c8cf" stroke-width="3"/><text x="192" y="594" text-anchor="middle" class="tiny">Filtre poussière</text>
-<path d="M226 548h32" stroke="#db7937" stroke-width="4" marker-end="url(#arrowO)"/>
-<rect x="264" y="515" width="94" height="70" rx="12" fill="#e9f2f5" stroke="#557d91" stroke-width="2"/><circle cx="285" cy="538" r="8" fill="#4b93a8"/><circle cx="307" cy="538" r="8" fill="#d28a43"/><circle cx="329" cy="538" r="8" fill="#8b6aa5"/><circle cx="285" cy="560" r="8" fill="#77a36c"/><circle cx="307" cy="560" r="8" fill="#c56565"/><circle cx="329" cy="560" r="8" fill="#637f98"/><text x="311" y="606" text-anchor="middle" class="tiny">Matrice de capteurs VOC</text>
-<path d="M359 548h28" stroke="#db7937" stroke-width="4" marker-end="url(#arrowO)"/><circle cx="414" cy="548" r="23" fill="#dbe9ed" stroke="#557d91" stroke-width="2"/><path d="M405 539l18 9-18 9z" fill="#557d91"/><text x="414" y="590" text-anchor="middle" class="tiny">Micro-pompe</text>
-<rect x="107" y="645" width="149" height="72" rx="10" fill="#e8edf4" stroke="#7289a0" stroke-width="2"/><rect x="124" y="660" width="28" height="24" rx="3" fill="#647f98"/><path d="M158 665h80m-80 12h60m-60 12h70" stroke="#8a9cac" stroke-width="3"/><text x="181" y="737" text-anchor="middle" class="tiny">Carte de contrôle</text>
-<rect x="283" y="645" width="153" height="72" rx="10" fill="#fff3e7" stroke="#dcaa72" stroke-width="2"/><text x="359" y="672" text-anchor="middle" class="small">Température +</text><text x="359" y="694" text-anchor="middle" class="small">humidité mesurées</text><text x="359" y="737" text-anchor="middle" class="tiny">Compensation des mesures</text>
+<!-- step 1: sample air -->
+<text x="300" y="286" text-anchor="middle" class="h2">Prélèvement d’un petit échantillon d’air</text>
+<!-- stylized tagine -->
+<path d="M95 417q10-87 92-87t93 87z" fill="#b65c38" stroke="#84422e" stroke-width="3"/><path d="M87 419h202" stroke="#84422e" stroke-width="7" stroke-linecap="round"/><path d="M126 329q61-35 122 0" fill="#d68b56" stroke="#84422e" stroke-width="3"/><circle cx="187" cy="321" r="8" fill="#84422e"/><path d="M139 309q-13-24 0-40m42 45q-9-33 9-51m26 49q18-20 12-42" fill="none" stroke="#d7a982" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+<text x="190" y="457" text-anchor="middle" class="small">Plat chaud / source odorante</text>
+<!-- sampling box -->
+<rect x="340" y="314" width="178" height="126" rx="17" fill="#f3f7f8" stroke="#839ca7" stroke-width="2"/>
+<text x="429" y="340" text-anchor="middle" class="label">Boîtier de prélèvement</text>
+<path d="M290 380h45" stroke="#c18b51" stroke-width="4" marker-end="url(#arrGold)"/><text x="312" y="366" text-anchor="middle" class="tiny">air</text>
+<rect x="361" y="354" width="32" height="44" rx="5" fill="#dde7eb" stroke="#8aa1ab"/><path d="M369 360v32m8-32v32m8-32v32" stroke="#99adb6" stroke-width="2"/><text x="377" y="414" text-anchor="middle" class="tiny">filtre</text>
+<circle cx="420" cy="376" r="19" fill="#d7e8ee" stroke="#6e8d9b" stroke-width="2"/><path d="M414 366l15 10-15 10z" fill="#537b8c"/><text x="420" y="414" text-anchor="middle" class="tiny">pompe</text>
+<rect x="450" y="356" width="51" height="40" rx="7" fill="#e6edf2" stroke="#8099a7"/><circle cx="463" cy="370" r="4" fill="#6fa8b4"/><circle cx="477" cy="370" r="4" fill="#cf9161"/><circle cx="490" cy="370" r="4" fill="#897aa2"/><circle cx="463" cy="383" r="4" fill="#73a278"/><circle cx="477" cy="383" r="4" fill="#bd6870"/><circle cx="490" cy="383" r="4" fill="#627f98"/><text x="476" y="414" text-anchor="middle" class="tiny">capteurs</text>
+<text x="300" y="489" text-anchor="middle" class="body">Filtre anti-poussière • pompe de prélèvement • matrice de capteurs VOC</text>
+<text x="300" y="514" text-anchor="middle" class="small">+ température / humidité pour corriger les mesures</text>
+<text x="300" y="538" text-anchor="middle" class="small">La caméra peut reconnaître le contexte, mais ne mesure pas l’odeur.</text>
 
-<!-- Connector 1 to 2 -->
-<path d="M474 458h99" stroke="#285c7b" stroke-width="5" marker-end="url(#arrowN)"/><text x="523" y="438" text-anchor="middle" class="small">Données</text>
+<!-- arrow 1-2 -->
+<path d="M566 375h63" stroke="#426b83" stroke-width="5" marker-end="url(#arrBlue)"/><text x="597" y="355" text-anchor="middle" class="small">lectures</text>
 
-<!-- Step 2 -->
-<text x="800" y="232" text-anchor="middle" class="label">Traitement logiciel</text>
-<rect x="650" y="264" width="300" height="99" rx="18" fill="#e9f4f8" stroke="#6e9eb1" stroke-width="2"/><path d="M692 326v-27l28-20 28 20v27z" fill="#72afc4" stroke="#4f8196" stroke-width="2"/><path d="M720 279v47m-23-23h47" stroke="#fff" stroke-width="3"/><text x="817" y="301" text-anchor="middle" class="label">Profil d’empreinte</text><text x="817" y="328" text-anchor="middle" class="small">lectures capteurs + contexte</text>
-<path d="M800 366v40" stroke="#db7937" stroke-width="4" marker-end="url(#arrowO)"/>
-<rect x="635" y="416" width="330" height="132" rx="16" fill="#fff8ef" stroke="#d9a06c" stroke-width="2"/><text x="800" y="445" text-anchor="middle" class="label">Comparaison à une bibliothèque</text><rect x="671" y="466" width="71" height="49" rx="7" fill="#f3e5d7" stroke="#c79469"/><path d="M684 500l11-17 10 11 12-15 13 21z" fill="#bf7a4d"/><text x="706" y="535" text-anchor="middle" class="tiny">Profils testés</text><path d="M753 490h59" stroke="#378568" stroke-width="4" marker-end="url(#arrowG)"/><rect x="824" y="466" width="102" height="49" rx="7" fill="#eaf3ea" stroke="#81a984"/><path d="M838 503v-14h14v14m7 0v-24h14v24m7 0v-18h14v18" fill="#73a476"/><text x="875" y="535" text-anchor="middle" class="tiny">Recette approchée</text>
-<path d="M800 551v37" stroke="#db7937" stroke-width="4" marker-end="url(#arrowO)"/>
-<rect x="645" y="596" width="310" height="95" rx="15" fill="#f3eff8" stroke="#9c8aaf" stroke-width="2"/><rect x="676" y="619" width="50" height="45" rx="7" fill="#82729a"/><path d="M686 630h30m-30 9h30m-30 9h23" stroke="#fff" stroke-width="3"/><text x="830" y="631" text-anchor="middle" class="label">Commande transmise</text><text x="830" y="657" text-anchor="middle" class="small">vers l’appareil connecté</text><text x="800" y="727" text-anchor="middle" class="small">Le téléphone choisit / pilote ; il ne produit pas la senteur.</text>
-<rect x="622" y="751" width="356" height="42" rx="10" fill="#fff0e3"/><text x="800" y="778" text-anchor="middle" class="small">Résultat dépendant des capteurs et des cartouches disponibles</text>
+<!-- step 2 -->
+<text x="900" y="286" text-anchor="middle" class="h2">La donnée est transformée, pas l’odeur</text>
+<!-- data cloud -->
+<path d="M753 374c-28 0-40-18-36-38 4-17 20-26 38-23 11-27 53-32 72-7 24-8 49 9 47 33 23 3 31 35 13 48-8 6-17 8-29 8H753z" fill="url(#glass)" stroke="#7895a5" stroke-width="2"/>
+<text x="813" y="355" text-anchor="middle" class="label">Profil olfactif</text><text x="813" y="378" text-anchor="middle" class="small">mesures + calibration</text>
+<path d="M880 374h66" stroke="#bd6436" stroke-width="4" marker-end="url(#arrRed)"/>
+<rect x="951" y="327" width="163" height="101" rx="14" fill="#fff8f1" stroke="#d9a475" stroke-width="2"/><path d="M973 398l24-26 22 11 25-35 44 14" fill="none" stroke="#c87943" stroke-width="4"/><path d="M974 405h105m-105-25h10m-10-25h10" stroke="#d6c3b2" stroke-width="2"/><text x="1032" y="418" text-anchor="middle" class="tiny">base de profils testés</text>
+<path d="M900 434v46" stroke="#bd6436" stroke-width="4" marker-end="url(#arrRed)"/>
+<rect x="720" y="491" width="360" height="48" rx="12" fill="#f6eff5" stroke="#aa8ba4" stroke-width="1.5"/><text x="900" y="511" text-anchor="middle" class="label">Application / serveur : choisit une formule disponible</text><text x="900" y="530" text-anchor="middle" class="tiny">et envoie une commande sans données personnelles nécessaires</text>
+<text x="900" y="460" text-anchor="middle" class="small">Correspondance approximative avec les cartouches de l’appareil</text>
 
-<!-- Connector 2 to 3 -->
-<path d="M1002 458h99" stroke="#378568" stroke-width="5" marker-end="url(#arrowG)"/><text x="1051" y="438" text-anchor="middle" class="small">Commande</text>
+<!-- arrow 2-3 -->
+<path d="M1167 375h63" stroke="#3b8067" stroke-width="5" marker-end="url(#arrBlue)"/><text x="1198" y="355" text-anchor="middle" class="small">commande</text>
 
-<!-- Step 3 device cutaway -->
-<text x="1327" y="229" text-anchor="middle" class="label">Diffuseur personnel — vue en coupe</text>
-<rect x="1173" y="252" width="310" height="479" rx="36" fill="url(#device)" stroke="#a9a2a0" stroke-width="3" filter="url(#shadow)"/>
-<rect x="1194" y="275" width="268" height="51" rx="17" fill="#f6f0ee" stroke="#d5cac5"/><circle cx="1217" cy="300" r="7" fill="#a14550"/><text x="1326" y="306" text-anchor="middle" class="small">Diffuseur Ri7aLive</text>
-<!-- Cartridges -->
-<text x="1327" y="357" text-anchor="middle" class="label">Cartouches remplaçables</text>
+<!-- step 3 overview device -->
+<text x="1500" y="286" text-anchor="middle" class="h2">Diffuseur compact — commande par téléphone</text>
+<rect x="1336" y="314" width="326" height="133" rx="28" fill="url(#glass)" stroke="#8296a0" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="1360" y="331" width="278" height="24" rx="12" fill="#f4e9e3"/><text x="1499" y="348" text-anchor="middle" class="tiny">Boîtier rechargeable • cartouches remplaçables</text>
+<rect x="1361" y="370" width="57" height="48" rx="10" fill="#f0ded0" stroke="#bd8c70"/><rect x="1427" y="370" width="57" height="48" rx="10" fill="#f1e9ce" stroke="#baa36d"/><rect x="1493" y="370" width="57" height="48" rx="10" fill="#e2eaf0" stroke="#809bab"/><rect x="1559" y="370" width="57" height="48" rx="10" fill="#efe4ed" stroke="#a88ba1"/><text x="1389" y="400" text-anchor="middle" class="small">A</text><text x="1455" y="400" text-anchor="middle" class="small">B</text><text x="1521" y="400" text-anchor="middle" class="small">C</text><text x="1587" y="400" text-anchor="middle" class="small">D</text>
+<text x="1500" y="473" text-anchor="middle" class="body">Cartouches + doseurs + mélangeur + ventilateur</text>
+<text x="1500" y="499" text-anchor="middle" class="small">Sortie : senteur approchée, en petite quantité</text>
+<text x="1500" y="535" text-anchor="middle" class="small">L’appareil diffuse — le smartphone ne produit pas la senteur.</text>
+
+<!-- detailed device section -->
+<text x="900" y="625" text-anchor="middle" font-size="27" font-weight="700" fill="#25333d">À l’intérieur du diffuseur : composants et rôle</text>
+<text x="900" y="654" text-anchor="middle" class="subtitle" fill="#63727b">Vue simplifiée en coupe — les numéros renvoient à la légende</text>
+
+<!-- device body cutaway -->
+<g filter="url(#shadow)"><rect x="70" y="690" width="1660" height="420" rx="24" fill="#fffdfa" stroke="#ded5cb" stroke-width="1.5"/></g>
+<!-- device shell -->
+<rect x="598" y="725" width="618" height="337" rx="56" fill="url(#glass)" stroke="#7c929d" stroke-width="3"/>
+<path d="M620 770q0-24 24-24h526q24 0 24 24" fill="none" stroke="#fff" stroke-width="5" opacity=".9"/>
+<rect x="638" y="746" width="538" height="47" rx="20" fill="#f5e9e3" stroke="#d8c3b8"/><text x="907" y="776" text-anchor="middle" class="label">Coque fermée, anti-fuite, démontable pour entretien</text>
+<!-- cartridge bank -->
+<text x="905" y="822" text-anchor="middle" class="label">Cartouches odorantes hermétiques — formule propriétaire validée</text>
 <g>
- <rect x="1206" y="372" width="52" height="97" rx="13" fill="#f7e9e1" stroke="#bf8b77" stroke-width="2"/><rect x="1217" y="386" width="30" height="51" rx="8" fill="#cb8763"/><path d="M1223 445h18" stroke="#8b5947" stroke-width="4"/><text x="1232" y="489" text-anchor="middle" class="tiny">A</text>
- <rect x="1269" y="372" width="52" height="97" rx="13" fill="#f3eee1" stroke="#b89c69" stroke-width="2"/><rect x="1280" y="386" width="30" height="51" rx="8" fill="#d1b66d"/><path d="M1286 445h18" stroke="#947f49" stroke-width="4"/><text x="1295" y="489" text-anchor="middle" class="tiny">B</text>
- <rect x="1332" y="372" width="52" height="97" rx="13" fill="#e8edf2" stroke="#8094a6" stroke-width="2"/><rect x="1343" y="386" width="30" height="51" rx="8" fill="#8aa9bf"/><path d="M1349 445h18" stroke="#617e91" stroke-width="4"/><text x="1358" y="489" text-anchor="middle" class="tiny">C</text>
- <rect x="1395" y="372" width="52" height="97" rx="13" fill="#f2e7ee" stroke="#a4809a" stroke-width="2"/><rect x="1406" y="386" width="30" height="51" rx="8" fill="#b58da9"/><path d="M1412 445h18" stroke="#886a80" stroke-width="4"/><text x="1421" y="489" text-anchor="middle" class="tiny">D</text>
+ <rect x="654" y="839" width="85" height="119" rx="16" fill="#f1dfd5" stroke="#be8b71" stroke-width="2"/><rect x="671" y="856" width="51" height="65" rx="12" fill="#bd7657"/><path d="M678 932h37" stroke="#8c5c49" stroke-width="5"/><circle cx="696" cy="946" r="5" fill="#9c5e49"/>
+ <rect x="752" y="839" width="85" height="119" rx="16" fill="#f2ebd8" stroke="#b9a36e" stroke-width="2"/><rect x="769" y="856" width="51" height="65" rx="12" fill="#cfb76c"/><path d="M776 932h37" stroke="#94804d" stroke-width="5"/><circle cx="794" cy="946" r="5" fill="#9c8b52"/>
+ <rect x="850" y="839" width="85" height="119" rx="16" fill="#e2eaf0" stroke="#8199aa" stroke-width="2"/><rect x="867" y="856" width="51" height="65" rx="12" fill="#7596ad"/><path d="M874 932h37" stroke="#536e81" stroke-width="5"/><circle cx="892" cy="946" r="5" fill="#5b788b"/>
+ <rect x="948" y="839" width="85" height="119" rx="16" fill="#efe5ed" stroke="#a58ba0" stroke-width="2"/><rect x="965" y="856" width="51" height="65" rx="12" fill="#ad8aa4"/><path d="M972 932h37" stroke="#80667c" stroke-width="5"/><circle cx="990" cy="946" r="5" fill="#866c81"/>
 </g>
-<text x="1327" y="515" text-anchor="middle" class="tiny">Matières odorantes adaptées et validées</text>
-<!-- valves/pumps -->
-<path d="M1232 470v27m63-27v27m63-27v27m63-27v27" stroke="#a66b58" stroke-width="3" stroke-dasharray="5 4"/>
-<rect x="1210" y="500" width="237" height="59" rx="12" fill="#f8f1ea" stroke="#cbad91" stroke-width="2"/>
-<circle cx="1240" cy="529" r="15" fill="#dbd6d1" stroke="#86796f" stroke-width="2"/><path d="M1232 529h16m-8-8v16" stroke="#86796f" stroke-width="2"/><circle cx="1290" cy="529" r="15" fill="#dbd6d1" stroke="#86796f" stroke-width="2"/><path d="M1282 529h16m-8-8v16" stroke="#86796f" stroke-width="2"/><text x="1370" y="525" text-anchor="middle" class="small">Micro-pompes +</text><text x="1370" y="544" text-anchor="middle" class="small">micro-vannes doseuses</text>
-<path d="M1328 560v20" stroke="#bd7a4e" stroke-width="4" marker-end="url(#arrowO)"/>
-<rect x="1225" y="585" width="206" height="54" rx="22" fill="#fae9df" stroke="#cc9476" stroke-width="2"/><path d="M1248 612h160" stroke="#d98c60" stroke-width="4" marker-end="url(#arrowO)"/><text x="1328" y="659" text-anchor="middle" class="tiny">Chambre de mélange avec air</text>
-<path d="M1328 640v28" stroke="#6e8fa0" stroke-width="4" marker-end="url(#arrowN)"/>
-<circle cx="1328" cy="685" r="17" fill="#dce7eb" stroke="#698899" stroke-width="2"/><path d="M1328 671q13 14 0 28m-14-14q14-13 28 0" fill="none" stroke="#698899" stroke-width="2"/><path d="M1347 685h78" stroke="#378568" stroke-width="4" marker-end="url(#arrowG)"/>
-<text x="1421" y="709" text-anchor="middle" class="tiny">Sortie d’air</text>
-<path d="M1187 529h-21v128h48" fill="none" stroke="#8092a0" stroke-width="3"/><rect x="1198" y="672" width="76" height="35" rx="8" fill="#e7edf1" stroke="#9aabb7"/><text x="1236" y="695" text-anchor="middle" class="tiny">Carte + USB</text>
+<text x="696" y="980" text-anchor="middle" class="tiny">A</text><text x="794" y="980" text-anchor="middle" class="tiny">B</text><text x="892" y="980" text-anchor="middle" class="tiny">C</text><text x="990" y="980" text-anchor="middle" class="tiny">D</text>
+<!-- tubing to valve manifold -->
+<path d="M696 952v38h110m-12-38v38m110-38v38m98-38v38" fill="none" stroke="#b98a6d" stroke-width="3" stroke-dasharray="5 4"/>
+<rect x="768" y="991" width="276" height="44" rx="12" fill="#f8f1ea" stroke="#c6a487" stroke-width="2"/><circle cx="798" cy="1013" r="11" fill="#d5d5d2" stroke="#8c8a83"/><circle cx="834" cy="1013" r="11" fill="#d5d5d2" stroke="#8c8a83"/><circle cx="870" cy="1013" r="11" fill="#d5d5d2" stroke="#8c8a83"/><circle cx="906" cy="1013" r="11" fill="#d5d5d2" stroke="#8c8a83"/><text x="972" y="1008" text-anchor="middle" class="tiny">Micro-vannes</text><text x="972" y="1024" text-anchor="middle" class="tiny">anti-retour</text>
+<!-- mixing / fan -->
+<path d="M1046 1013h34" stroke="#c18b51" stroke-width="4" marker-end="url(#arrGold)"/>
+<rect x="1087" y="972" width="88" height="78" rx="23" fill="#faeee4" stroke="#c99476" stroke-width="2"/><path d="M1102 1011h55" stroke="#ce8256" stroke-width="4" marker-end="url(#arrGold)"/><text x="1131" y="1069" text-anchor="middle" class="tiny">chambre de mélange</text>
+<path d="M1176 1011h27" stroke="#426b83" stroke-width="4" marker-end="url(#arrBlue)"/>
+<!-- outlet / fan on shell right side -->
+<circle cx="1188" cy="896" r="24" fill="#dbe7ec" stroke="#6e8d9b" stroke-width="2"/><path d="M1188 878q15 18 0 36m-18-18q18-15 36 0" fill="none" stroke="#6e8d9b" stroke-width="3"/>
+<path d="M1212 896h49" stroke="#3b8067" stroke-width="4" marker-end="url(#arrBlue)"/><path d="M1266 878q-12 18 0 36m15-36q-12 18 0 36m15-36q-12 18 0 36" fill="none" stroke="#a7c7ba" stroke-width="4"/><text x="1286" y="934" text-anchor="middle" class="tiny">grille de sortie</text>
+<!-- control board / battery -->
+<rect x="654" y="1000" width="95" height="41" rx="7" fill="#e8edf2" stroke="#8194a1" stroke-width="2"/><rect x="665" y="1008" width="20" height="16" rx="3" fill="#668197"/><path d="M691 1010h48m-48 8h39m-39 8h30" stroke="#92a5af" stroke-width="2"/><text x="701" y="1058" text-anchor="middle" class="tiny">carte de contrôle</text>
+<rect x="635" y="814" width="24" height="12" rx="4" fill="#c38a4e"/><text x="647" y="809" text-anchor="middle" class="tiny">USB-C</text>
+<!-- numbered callout circles and leaders -->
+<g>
+ <circle cx="617" cy="812" r="14" fill="#25475e"/><text x="617" y="817" text-anchor="middle" class="num">1</text><path d="M631 812h28" class="line"/>
+ <circle cx="735" cy="830" r="14" fill="#bd6436"/><text x="735" y="835" text-anchor="middle" class="num">2</text>
+ <circle cx="1057" cy="1001" r="14" fill="#bd6436"/><text x="1057" y="1006" text-anchor="middle" class="num">3</text>
+ <circle cx="1178" cy="950" r="14" fill="#3b8067"/><text x="1178" y="955" text-anchor="middle" class="num">4</text>
+ <circle cx="1190" cy="855" r="14" fill="#3b8067"/><text x="1190" y="860" text-anchor="middle" class="num">5</text>
+ <circle cx="650" cy="1053" r="14" fill="#25475e"/><text x="650" y="1058" text-anchor="middle" class="num">6</text>
+ <circle cx="688" cy="805" r="14" fill="#c18b51"/><text x="688" y="810" text-anchor="middle" class="num">7</text>
+ <circle cx="1260" cy="896" r="14" fill="#c18b51"/><text x="1260" y="901" text-anchor="middle" class="num">8</text>
+</g>
 
-<!-- bottom disclaimer -->
-<rect x="39" y="846" width="1522" height="102" rx="18" fill="#fffaf3" stroke="#e4c9a8" stroke-width="2"/>
-<circle cx="84" cy="897" r="23" fill="#cf783b"/><text x="84" y="905" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">!</text>
-<text x="125" y="883" class="label">À préciser dans le projet</text>
-<text x="125" y="912" class="small">Le système ne transporte pas la molécule originale et ne garantit pas une reproduction exacte : il propose une senteur approchée à partir des cartouches installées.</text>
-<text x="125" y="934" class="small">Sécurité : matières conçues/évaluées pour diffusion dans l’air, dosage limité, ventilation et arrêt automatique en cas d’anomalie.</text>
-<text x="800" y="982" text-anchor="middle" class="tiny">Schéma conceptuel — prototype à valider par des essais de mesure, de formulation et de sécurité.</text>
+<!-- legend right -->
+<text x="1460" y="738" text-anchor="middle" class="h2">Constituants du diffuseur</text>
+<g>
+ <circle cx="1320" cy="780" r="13" fill="#25475e"/><text x="1320" y="785" text-anchor="middle" class="num">1</text><text x="1344" y="776" class="label">Coque + joints</text><text x="1344" y="796" class="small">protègent et limitent les fuites.</text>
+ <circle cx="1320" cy="832" r="13" fill="#bd6436"/><text x="1320" y="837" text-anchor="middle" class="num">2</text><text x="1344" y="828" class="label">Cartouches scellées A–D</text><text x="1344" y="848" class="small">réservoirs remplaçables de senteurs.</text>
+ <circle cx="1320" cy="884" r="13" fill="#bd6436"/><text x="1320" y="889" text-anchor="middle" class="num">3</text><text x="1344" y="880" class="label">Micro-pompe + micro-vannes</text><text x="1344" y="900" class="small">dosent séparément les cartouches.</text>
+ <circle cx="1320" cy="936" r="13" fill="#3b8067"/><text x="1320" y="941" text-anchor="middle" class="num">4</text><text x="1344" y="932" class="label">Chambre de mélange</text><text x="1344" y="952" class="small">mélange senteurs et air propre.</text>
+ <circle cx="1320" cy="988" r="13" fill="#3b8067"/><text x="1320" y="993" text-anchor="middle" class="num">5</text><text x="1344" y="984" class="label">Micro-ventilateur + grille</text><text x="1344" y="1004" class="small">diffusent doucement vers l’extérieur.</text>
+ <circle cx="1320" cy="1040" r="13" fill="#25475e"/><text x="1320" y="1045" text-anchor="middle" class="num">6</text><text x="1344" y="1036" class="label">Carte électronique + liaison</text><text x="1344" y="1056" class="small">reçoit l’ordre et pilote les doseurs.</text>
+ <circle cx="1320" cy="1092" r="13" fill="#c18b51"/><text x="1320" y="1097" text-anchor="middle" class="num">7</text><text x="1344" y="1088" class="label">USB-C / batterie rechargeable</text><text x="1344" y="1108" class="small">alimente le prototype portable.</text>
+ <circle cx="1320" cy="1144" r="13" fill="#c18b51"/><text x="1320" y="1149" text-anchor="middle" class="num">8</text><text x="1344" y="1140" class="label">Capteur de débit / sécurité</text><text x="1344" y="1160" class="small">surveille le flux et peut couper l’appareil.</text>
+</g>
+
+<!-- footer safety and realism -->
+<rect x="70" y="1130" width="1160" height="71" rx="16" fill="#fff5e8" stroke="#e3c69d" stroke-width="1.5"/>
+<text x="94" y="1158" class="label" fill="#844c2d">Important — prototype réaliste</text>
+<text x="94" y="1182" class="small">Les capteurs VOC donnent une empreinte imparfaite : résultat approché, pas une copie exacte. Les cartouches doivent être évaluées pour diffusion dans l’air, à faible dose, avec ventilation.</text>
+<text x="900" y="1230" text-anchor="middle" font-size="12" fill="#68747a">ملاحظة: الجهاز كيعطي تقريب للريحة، ماشي نفس الريحة بالحرف. La formulation et la sécurité nécessitent essais et validation spécialisés.</text>
 </svg>
