@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09080b,35:24101a,70:5b2034,100:110d11&height=190&section=header&text=SALOUA&fontSize=54&fontColor=f5e7d6&animation=fadeIn&fontAlignY=38" alt="En-tête élégant aux tons noir et bordeaux" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:09080b,35:5b2034,70:8b1e3f,100:110d11&height=220&section=header&text=SALOUA&fontSize=54&fontColor=f5e7d6&animation=fadeIn&fontAlignY=38" alt="En-tête organique noir et bordeaux" />
 
-<img width="210" src="./assets/luxury_ninja.svg" alt="Sphère abstraite 3D animée, noir et or" />
+<img width="220" src="./assets/luxury_orb.svg" alt="Orbe 3D animé aux reflets or et bordeaux, sur fond transparent" />
 
 <a href="https://github.com/salouaulk3">
   <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=700&size=28&duration=2600&pause=900&color=F5D7A8&center=true&vCenter=true&width=620&height=54&lines=Full-Stack+%26+Mobile+Developer;Crafting+Digital+Experiences;React+%E2%80%A2+Mobile+%E2%80%A2+Web" alt="Texte animé de présentation" />
