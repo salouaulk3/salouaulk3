@@ -1,60 +1,66 @@
 <div align="center">
 
-# Saloua
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0EA5E9,100:22C55E&height=180&section=header&text=Saloua&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Animated wave header" />
 
-### Full-Stack & Mobile Developer
+<a href="https://github.com/salouaulk3">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=600&height=45&lines=Full-Stack+%26+Mobile+Developer;React+%7C+React+Native+%7C+TypeScript;Building+useful+digital+products" alt="Typing introduction" />
+</a>
 
-I build practical web and mobile applications with thoughtful interfaces and reliable foundations.
-
-[![GitHub](https://img.shields.io/badge/GitHub-salouaulk3-181717?style=flat-square&logo=github)](https://github.com/salouaulk3)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:salouaulk3@gmail.com)
+[![Email](https://img.shields.io/badge/EMAIL-CONTACT-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:salouaulk3@gmail.com)
+[![Projects](https://img.shields.io/badge/EXPLORE-PROJECTS-22C55E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/salouaulk3?tab=repositories)
 
 </div>
 
 ---
 
-## About
+## ✨ Featured projects
 
-**FR** — Développeuse full-stack et mobile, je conçois des applications utiles et accessibles, de l’interface utilisateur aux fonctionnalités côté serveur. Je m’intéresse particulièrement aux outils numériques qui répondent à des besoins concrets.
+<table>
+<tr>
+<td width="33%" align="center">
 
-**EN** — Full-stack and mobile developer focused on building useful, user-friendly applications—from polished interfaces to backend features. I’m especially interested in digital tools that solve practical, everyday problems.
+### 🛍️ HANOT+
+Shop management & customer credit tracking
 
-- 📱 Mobile development with **React Native**, **Expo** and **TypeScript**
-- 🌐 Web development with **React**, **JavaScript** and **CSS**
-- ⚙️ Backend development with **Node.js**, **Express** and **REST APIs**
-- 🗄️ Working with **MySQL** and relational data
+[![Open project](https://img.shields.io/badge/VIEW-0EA5E9?style=for-the-badge&logo=github)](https://github.com/salouaulk3/Hanout-Plus)
 
-## Featured projects
+`React Native` `Expo` `TypeScript`
 
-### [HANOT+](https://github.com/salouaulk3/Hanout-Plus)
-A digital management solution for local shops, focused on tracking customer credit and payments.
+</td>
+<td width="33%" align="center">
 
-`React Native` · `Expo` · `TypeScript` · `Node.js` · `MySQL`
+### 🖥️ Atlas Hardware
+Responsive computer components store
 
-### [Atlas Hardware Maroc](https://github.com/salouaulk3/atlas-hardware-maroc)
-A responsive e-commerce storefront for computer components, built with React and Vite.
+[![Open project](https://img.shields.io/badge/VIEW-0EA5E9?style=for-the-badge&logo=github)](https://github.com/salouaulk3/atlas-hardware-maroc)
 
-`React` · `Vite` · `Tailwind CSS`
+`React` `Vite` `Tailwind`
 
-### [Gestion de Stock](https://github.com/salouaulk3/gestion-de-stock)
-An inventory-management project for organizing products and monitoring stock movements.
+</td>
+<td width="33%" align="center">
 
-`JavaScript` · `HTML` · `CSS`
+### 📦 Gestion de Stock
+Inventory tracking and management
 
-## Tech stack
+[![Open project](https://img.shields.io/badge/VIEW-0EA5E9?style=for-the-badge&logo=github)](https://github.com/salouaulk3/gestion-de-stock)
+
+`JavaScript` `HTML` `CSS`
+
+</td>
+</tr>
+</table>
+
+## ⚡ Tech
 
 <div align="center">
 
-[![My skills](https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,mysql,html,css,git,github,vscode,postman,figma&theme=dark)](https://skillicons.dev)
+<img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,mysql,html,css,git,github,vscode,postman,figma&theme=dark" alt="Technologies" />
 
-</div>
+<br /><br />
 
-## Let’s connect
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=salouaulk3&show_icons=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=22c55e&text_color=c9d1d9" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salouaulk3&layout=compact&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" alt="Top languages" />
 
-Interested in collaborating or discussing a project? [Send me an email](mailto:salouaulk3@gmail.com) or explore my [repositories](https://github.com/salouaulk3?tab=repositories).
-
-<div align="center">
-
-*Building useful things, one step at a time.*
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22C55E,50:0EA5E9,100:0F172A&height=100&section=footer" alt="Decorative wave footer" />
 
 </div>
